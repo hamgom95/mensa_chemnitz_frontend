@@ -1,0 +1,64 @@
+{
+  "name": "@hamgom95/mensa_chemnitz_frontend",
+  "version": "1.0.0",
+  "description": "mensa chemnitz fronend",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:prod": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "build": "npm run build:prod",
+    "watch:prod": "webpack --mode production --watch",
+    "watch:dev": "webpack --mode development --watch",
+    "watch": "npm run watch:prod",
+    "serve:prod": "webpack-dev-server --mode production --open",
+    "serve:dev": "webpack-dev-server --mode development --open",
+    "serve": "npm run serve:prod"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie <= 8"
+  ],
+  "author": "Kevin Thomas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^9.4.6",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.6.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1",
+    "workbox-webpack-plugin": "^3.6.3",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
+    "popper.js": "^1.14.6"
+  }
+}
